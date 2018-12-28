@@ -1,0 +1,1118 @@
+@font-face {
+  font-family: 'wp_domino_novelregular';
+  src: url('../font/wp_domino_novel-webfont.eot');
+  src: url('../font/wp_domino_novel-webfont.eot?#iefix') format('embedded-opentype'), url('../font/wp_domino_novel-webfont.woff2') format('woff2'), url('../font/wp_domino_novel-webfont.woff') format('woff'), url('../font/wp_domino_novel-webfont.ttf') format('truetype'), url('../font/wp_domino_novel-webfont.svg#wp_domino_novelregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontawesomeregular';
+  src: url('../font/fontawesome-webfont.eot');
+  src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('../font/fontawesome-webfont.woff2') format('woff2'), url('../font/fontawesome-webfont.woff') format('woff'), url('../font/fontawesome-webfont.ttf') format('truetype'), url('../font/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontawesomeregular';
+  src: url('../font/fontawesome-webfont-webfont.eot');
+  src: url('../font/fontawesome-webfont-webfont.eot?#iefix') format('embedded-opentype'), url('../font/fontawesome-webfont-webfont.woff2') format('woff2'), url('../font/fontawesome-webfont-webfont.woff') format('woff'), url('../font/fontawesome-webfont-webfont.ttf') format('truetype'), url('../font/fontawesome-webfont-webfont.svg#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: #1c264a;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 40px;
+  height: 35px;
+  font-size: 36px;
+  margin-top: 26px;
+  color: #1c264a;
+  transform: translateX(74px);
+}
+
+#bg-header {
+  width: 961px;
+  height: 140px;
+  background-color: #e7e6e4;
+  text-align: center;
+}
+
+#header {
+  font-family: 'wp_domino_novelregular';
+  font-size: 48px;
+  color: #1c264a;
+}
+
+#cart {
+  color: #1c264a;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#cart span {
+  font-family: 'wp_domino_novelregular';
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#menu {
+  height: 25px;
+  font-family: 'wp_domino_novelregular';
+  transform: translateY(-30px);
+  position: absolute;
+  z-index: 10;
+}
+
+.menu {
+  float: left;
+  font-size: 24px;
+  margin-left: 70px;
+}
+
+.menu:first-child {
+  margin-left: 155px;
+}
+
+.menu:nth-child(3) {
+  margin-left: 300px;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+#newCollection {
+  width: 960px;
+  height: 687px;
+  background-image: url("../images/newCollections.png");
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  position: static;
+}
+
+#collection {
+  width: 960px;
+  transform: translateY(-187px);
+  position: relative;
+  /*position: relative;*/
+}
+
+.shop-now {
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.container {
+  width: 480px;
+  float: left;
+  z-index: -1;
+}
+
+#name-newCollection {
+  font-size: 48px;
+  font-family: 'wp_domino_novelregular';
+  width: 256px;
+  height: 100px;
+  text-align: center;
+  color: #e5d0b5;
+  position: absolute;
+  top: 200px;
+  text-shadow: 5px 4px #1c264a;
+  margin-top: 200px;
+  margin-left: 65px;
+}
+
+#collectionMen {
+  width: 481px;
+  height: 687px;
+  background-image: url("../images/collectionMen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0%, 0 400000px, 100% 27%);
+  float: left;
+  position: relative;
+}
+
+#name-CollectionMen {
+  font-size: 48px;
+  font-family: 'wp_domino_novelregular';
+  width: 256px;
+  height: 100px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  right: 60px;
+  top: 200px
+}
+
+#collectionWoman {
+  width: 481px;
+  height: 687px;
+  background-image: url("../images/collectionWoman.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 27%, 0 400000px, 100% 0%);
+  float: left;
+  position: relative;
+}
+
+#name-CollectionWoman {
+  font-size: 48px;
+  font-family: 'wp_domino_novelregular';
+  width: 256px;
+  height: 100px;
+  text-align: center;
+  color: #1c264a;
+  position: absolute;
+  left: 60px;
+  top: 200px
+}
+
+.image-product-1, .image-product-2, .image-product-3, .image-product-4, .image-product-5, .image-product-6, .image-product-7, .image-product-8, .image-product-9, .image-product-10, .image-product-11, .image-product-12 {
+  width: 240px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.image-product-1 {
+  background-image: url("../images/men-watch1.jpg");
+}
+
+.image-product-2 {
+  background-image: url("../images/men-watch2.jpg");
+}
+
+.image-product-3 {
+  background-image: url("../images/men-watch3.jpg");
+}
+
+.image-product-4 {
+  background-image: url("../images/women-watch4.jpg");
+}
+
+.image-product-5 {
+  background-image: url("../images/women-watch2.jpg");
+}
+
+.image-product-6 {
+  background-image: url("../images/women-watch3.jpg");
+}
+.image-product-7{
+  background-image: url("../images/women-watch7.jpg");
+}
+.image-product-8{
+  background-image: url("../images/women-watch5.jpg");
+}
+.image-product-9{
+  background-image: url("../images/women-watch6.jpg");
+}
+.image-product-10{
+  background-image: url("../images/men-watch4.jpg");
+}
+.image-product-11{
+  background-image: url("../images/men-watch5.jpg");
+}
+.image-product-12{
+  background-image: url("../images/men-watch6.jpg");
+}
+.name-product-1, .name-product-2, .name-product-3, .name-product-4, .name-product-5, .name-product-6,.name-product-7, .name-product-8, .name-product-9, .name-product-10, .name-product-11, .name-product-12 {
+  font-size: 20px;
+  font-family: 'wp_domino_novelregular';
+  text-align: center;
+  margin-top: 10px;
+}
+
+.price {
+  font-size: 16px;
+  font-family: 'wp_domino_novelregular';
+  float: right;
+  margin-top: 15px;
+  padding-right: 10px;
+}
+
+#bg-woman {
+  width: 960px;
+  height: 485px;
+  background-color: #e7e6e4;
+  transform: translateY(-187px);
+  float: left;
+  margin-bottom: 26px;
+  cursor: pointer;
+}
+
+.title, .title-blog {
+  width: 960px;
+  height: 60px;
+  font-family: 'wp_domino_novelregular';
+  font-size: 36px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.bg-image {
+  width: 780px;
+  height: 375px;
+  margin: 0 auto;
+}
+
+.bg-images {
+  width: 250px;
+  height: 375px;
+  float: left;
+  background-color: #fff;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.bg-images:hover {
+  box-shadow: 5px 5px 10px #c0c0c0;
+}
+.bg-images:hover .image-product-12 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/men10.jpg");
+}
+.bg-images:hover .image-product-11 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/men13.jpg");
+}
+.bg-images:hover .image-product-10 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/men9.jpg");
+}
+.bg-images:hover .image-product-3 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/men1.jpg");
+}
+
+.bg-images:hover .image-product-2 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/men11.jpg");
+}
+
+.bg-images:hover .image-product-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/men4.jpg");
+}
+
+.bg-images:hover .name-product-1, .bg-images:hover .name-product-2, .bg-images:hover .name-product-3, .bg-images:hover .name-product-4, .bg-images:hover .name-product-5, .bg-images:hover .name-product-6 {
+  text-decoration: underline;
+}
+.bg-images:hover .image-product-9{
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/women2.jpg");
+}
+.bg-images:hover .image-product-8{
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/women3.jpg");
+}
+.bg-images:hover .image-product-7{
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/women4.jpg");
+}
+.bg-images:hover .image-product-4 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/women1.jpg");
+}
+
+.bg-images:hover .image-product-5 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/women5.jpg");
+}
+
+.bg-images:hover .image-product-6 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/women6.jpg");
+}
+
+.bg-images:first-child {
+  margin-left: 0px;
+}
+
+#bg-men {
+  width: 960px;
+  height: 477px;
+  /*margin-top: 26px;*/
+  background-color: #e7e6e4;
+  transform: translateY(-187px);
+  float: left;
+  cursor: pointer;
+}
+
+.arrowleft {
+  margin-left: 23px;
+  float: left;
+  margin-top: 165px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.arrowleft:hover, .arrowright:hover {
+  opacity: 1;
+}
+
+.arrowright {
+  margin-right: 23px;
+  float: right;
+  margin-top: 165px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#bg-out-blog {
+  background-color: #f7f8fc;
+  width: 960px;
+  height: 590px;
+  transform: translateY(-187px);
+  float: left;
+}
+
+#bg-in-blog {
+  width: 910px;
+  height: 540px;
+  background-color: #fff;
+  float: left;
+  margin: 25px;
+}
+
+.title-blog {
+  width: 910px;
+}
+
+#box-left {
+  width: 380px;
+  height: 450px;
+  float: left;
+  /*background-color: blue;*/
+  margin-left: 67px;
+}
+
+#box-right {
+  width: 380px;
+  height: 450px;
+  float: right;
+  /*background-color: red;*/
+  margin-right: 67px;
+}
+
+#image-blog1 {
+  width: 380px;
+  height: 240px;
+  background-image: url("../images/blog1.jpg");
+  background-size: cover;
+}
+
+.image-blog2 {
+  width: 380px;
+  height: 174px;
+  /*background-color: green;*/
+  font-family: 'wp_domino_novelregular';
+  font-size: 24px;
+  text-align: center;
+  margin-top: 36px;
+}
+
+.title-header-subBlog-left, .title-header-subBlog-right {
+  width: 200px;
+  margin: 0 auto;
+  border-bottom: 3px solid #e7e6e4;
+  padding-bottom: 5px;
+  color: #e5d0b5;
+}
+
+.title-header-subBlog-right {
+  width: 260px;
+}
+
+.txt-subBlog {
+  font-size: 16px;
+  margin-top: 35px;
+  color: #1c264a;
+}
+
+#image-blog3 {
+  width: 380px;
+  height: 240px;
+  background-image: url("../images/blog3.jpg");
+  background-size: cover;
+  float: right;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.silver {
+  background-color: #9e9e9e;
+}
+
+.gold {
+  background-color: #eed4a6;
+}
+
+.copper {
+  background-color: #d4876f;
+}
+
+.purple {
+  background-color: #3c415f;
+}
+
+.black {
+  background-color: #000;
+}
+
+.blackbrown {
+  background-color: #563c30;
+}
+
+.redbrown {
+  background-color: #b36c41;
+}
+
+.blackpurple {
+  background-color: #1d1b21;
+}
+
+.brownnie {
+  background-color: #483926;
+}
+
+.brown {
+  background-color: #906a55;
+}
+
+.chocolate {
+  background-color: #552c0f;
+}
+
+.rose {
+  background-color: #f69679;
+}
+
+.browneye {
+  background-color: #c69c6d;
+}
+
+.box-shop {
+  width: 230px;
+  height: 80px;
+  background-color: #7b716b;
+  border-radius: 35px;
+  margin: 0 auto;
+  font-family: 'wp_domino_novelregular';
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  transform: translateY(532px);
+  padding-top: 25px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.yellow {
+  background-color: #e2d2be;
+  opacity: 0.7;
+  font-family: 'wp_domino_novelregular';
+  font-size: 30px;
+  margin: 0 0 0 210px;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: #121933;
+  opacity: 0.7;
+  font-family: 'wp_domino_novelregular';
+  font-size: 30px;
+  margin: 0 0 0 40px;
+  cursor: pointer;
+}
+
+.yellow:hover, .blue:hover, .box-shop:hover {
+  opacity: 1;
+}
+
+.bg-Subscribe-left {
+  width: 480px;
+  height: 250px;
+  background-color: #1c264a;
+  float: left;
+  transform: translateY(-187px);
+}
+
+.box-shop-subscribe {
+  width: 385px;
+  height: 50px;
+  border: 1px solid #e7e6e4;
+  background-color: transparent;
+  border-radius: 15px;
+  float: left;
+  text-align: center;
+  font-family: 'wp_domino_novelregular';
+  font-size: 24px;
+  margin: 50px 0 0 45px;
+  color: #d0bda8;
+  cursor: pointer;
+}
+
+.Subscribe {
+  font-family: 'wp_domino_novelregular';
+  font-size: 30px;
+  margin: 30px 0 0 0;
+  text-align: center;
+  color: #fff;
+}
+
+.box-subscribe-send {
+  width: 85px;
+  height: 33px;
+  background-color: #d0bda8;
+  border-radius: 10px;
+  font-family: 'wp_domino_novelregular';
+  font-size: 18px;
+  text-align: center;
+  float: left;
+  margin: 35px 0 0 190px;
+  color: #1c264a;
+  padding-top: 7px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.box-subscribe-send:hover {
+  opacity: 1;
+}
+
+.bg-Subscribe-right {
+  width: 480px;
+  height: 250px;
+  float: left;
+  transform: translateY(-187px);
+}
+
+::placeholder {
+  color: #d0bda8;
+}
+
+.footer1 {
+  width: 960px;
+  height: 170px;
+  background-color: #e5d0b5;
+  float: left;
+  transform: translateY(-187px);
+  font-family: 'wp_domino_novelregular';
+}
+
+#footerlogo {
+  width: 230px;
+  height: 170px;
+  /*background-color: red;*/
+  float: left;
+}
+
+#footersearch {
+  width: 230px;
+  height: 170px;
+  /*background-color:blue;*/
+  float: left;
+}
+
+#footershop {
+  width: 230px;
+  height: 170px;
+  /*background-color:green;*/
+  float: left;
+}
+
+#footercontact {
+  width: 230px;
+  height: 170px;
+  /*background-color:yellow;*/
+  float: left;
+}
+
+#name-logo {
+  font-size: 24px;
+  color: #1c264a;
+  margin-left: 45px;
+}
+
+#search {
+  font-size: 20px;
+  color: #1c264a;
+  margin: 70px 0 0 0;
+}
+
+.search-box {
+  width: 150px;
+  height: 33px;
+  border-bottom: 3px solid #e7e6e4;
+  margin: 10px 0 0 0px;
+  font-size: 16px;
+}
+
+.searchicon {
+  margin: 0 0 0 -40px;
+  color: #7a7376;
+  cursor: pointer;
+}
+
+.search-box::placeholder {
+  color: #d0bda8;
+}
+
+#shops {
+  font-size: 20px;
+  color: #1c264a;
+  margin: 70px 0 10px 30px;
+}
+
+#menu-shops {
+  font-size: 16px;
+  color: #1c264a;
+}
+
+#menu-shops li {
+  cursor: pointer;
+}
+
+#menu-shops li:hover {
+  text-decoration: underline;
+}
+
+#menu-shops li, #menu-contacts li {
+  margin-bottom: 5px;
+}
+
+#contacts {
+  font-size: 20px;
+  color: #1c264a;
+  margin: 70px 0 10px 40px;
+}
+
+#menu-contacts {
+  font-size: 16px;
+  color: #1c264a;
+}
+
+.search-box {
+  width: 148px;
+  height: 25px;
+  border: 1px solid #e7e6e4;
+  background-color: transparent;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'wp_domino_novelregular';
+  font-size: 18px;
+  margin: 10px 0 0 -46px;
+  color: #d0bda8;
+}
+
+#FollowUs {
+  font-family: 'wp_domino_novelregular';
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#box-follow i {
+  margin-right: 5px;
+  cursor: auto;
+}
+
+#box-follow i:hover {
+  color: white;
+}
+
+#box-follow {
+  width: 140px;
+  height: 70px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+  color: #1c264a;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+#copyright {
+  font-family: 'wp_domino_novelregular';
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #1c264a;
+  margin: 0 auto;
+}
+
+#footercopyright {
+  text-align: center;
+}
+
+.bxslider li {
+  width: 800px !important;
+}
+
+.bx-wrapper {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background: none !important;
+}
+
+.bx-wrapper .bx-prev {
+  left: -63px !important;
+}
+
+.bx-wrapper .bx-next {
+  right: -63px !important;
+}
+
+.bx-pager {
+  display: none !important;
+}
+/*home end*/
+
+/*start shop page*/
+
+.box-video {
+  background-color: #faf8fb;
+  margin-top: 35px;
+  width: 100%;
+  width: auto;
+  height: auto;
+  color: #1c264a;
+  font-family: 'wp_domino_novelregular';
+  position: relative;
+  text-align: center;
+}
+#main-collection {
+  font-size: 30px;
+  position: absolute;
+  top: 180px;
+  left: 370px;
+}
+#sub-collection {
+  font-size: 20px;
+  position: absolute;
+  top: 260px;
+  left: 140px;
+  margin-top: -5px;
+}
+/*start women product*/
+.bg-women-product {
+  width: 960px;
+  height: 760px;
+  margin-top: 35px;
+  background-image: url('../images/bg-women-product.jpg');
+  position: relative;
+}
+.box-product2 {
+  width: 640px;
+  height: 653px;
+  margin: 55px 5px;
+  /*background-color: #fff;*/
+  float: right;
+}
+.watch-product1 {
+  border-radius: 15px;
+  border: 1.5px solid #e5d0b5;
+  width: 200px;
+  height: 315px;
+  margin-right: 10px;
+  color: #1c264a;
+  float: right;
+}
+.watch-product3 {
+  width: 200px;
+  height: 315px;
+  border-radius: 15px;
+  border: 1.5px solid #e5d0b5;
+  margin-right: 9px;
+  color: #1c264a;
+  float: right;
+  margin-top: 24px;
+}
+.pr7 {
+  background-image: url(../images/watch_product7.png);
+}
+.pr8 {
+  height: 315px;
+  background-image: url(../images/watch_product8.png);
+}
+.pr9 {
+  height: 315px;
+  background-image: url(../images/watch_product9.png);
+}
+.pr10 {
+  height: 315px;
+  background-image: url(../images/watch_product10.png);
+}
+.pr11 {
+  height: 315px;
+  background-image: url(../images/watch_product11.png);
+}
+.pr12 {
+  height: 315px;
+  background-image: url(../images/watch_product12.png);
+}
+.watch-name7, .watch-name8, .watch-name9, .watch-name10, .watch-name11, .watch-name12{
+  text-align: center;
+  font-family: 'wp_domino_novelregular';
+  margin-top: 255px;
+}
+.watch-price7, .watch-price8, .watch-price9, .watch-price10, .watch-price11, .watch-price12 {
+  text-align: center;
+  font-family: 'wp_domino_novelregular';
+  margin-top: 5px;
+}
+/*end women product*/
+
+/*start men product*/
+
+.bg-men-product {
+  margin-bottom: 35px;
+  width: 960px;
+  height: 760px;
+  margin-top: 35px;
+  background-image: url('../images/bg-men-product.jpg');
+}
+.box-product {
+  width: 640px;
+  height: 653px;
+  margin: 55px 10px;
+  position: absolute;
+}
+.watch-product {
+  border-radius: 15px;
+  border: 1.5px solid #e5d0b5;
+  width: 200px;
+  height: 315px;
+  margin-right: 10px;
+  color: #1c264a;
+  float: left;
+
+}
+.watch-product2 {
+  width: 200px;
+  height: 315px;
+  border-radius: 15px;
+  border: 1.5px solid #e5d0b5;
+  margin-right: 10px;
+  color: #1c264a;
+  float: left;
+  margin-top: 24px;
+}
+.pr1 {
+  background-image: url(../images/watch_product1.jpg);
+}
+.pr2 {
+  height: 315px;
+  background-image: url(../images/watch_product2.jpg);
+}
+.pr3 {
+  height: 315px;
+  background-image: url(../images/watch_product3.jpg);
+}
+.pr4 {
+  height: 315px;
+  background-image: url(../images/watch_product4.jpg);
+}
+.pr5 {
+  height: 315px;
+  background-image: url(../images/watch_product5.jpg);
+}
+.pr6 {
+  height: 315px;
+  background-image: url(../images/watch_product6.jpg);
+}
+.watch-name1, .watch-name2, .watch-name3, .watch-name4, .watch-name5, .watch-name6{
+  text-align: center;
+  font-family: 'wp_domino_novelregular';
+  margin-top: 255px;
+}
+.watch-price1, .watch-price2, .watch-price3, .watch-price4, .watch-price5, .watch-price6 {
+  text-align: center;
+  font-family: 'wp_domino_novelregular';
+  margin-top: 5px;
+}
+/*hover-product*/
+* {
+  margin-left: -30px;
+  box-sizing: border-box;
+}
+figure {
+  -webkit-transition: all 200ms;
+      transition: all 200ms;
+      display: inline-block;
+      /*margin: 10px;*/
+      /* background: black; */
+      width: 199px;
+      height: 314px;
+      overflow: hidden;
+      position: relative;
+      /*border: 2px solid #fff;*/
+      margin-top: 0px;
+      /*margin-left: -3px;*/
+      border-radius: 12px;
+}
+figure:hover {
+  border-width: 9px;
+}
+figure:hover .title {
+  -webkit-transform: translate(0, 100px);
+          transform: translate(0, 100px);
+}
+figure:hover img {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  display: block;
+}
+figure:hover .description {
+  opacity: 1;
+  -webkit-transform: translateY(-60px);
+  transform: translateY(-60px);
+}
+figure:hover .iconos {
+  -webkit-transform: translateY(-80px);
+  transform: translateY(-80px);
+  opacity: 1;
+}
+figure .title {
+    margin: 20px;
+    font-family: 'wp_domino_novelregular';
+    background: black;
+    position: absolute;
+    bottom: -20px;
+    padding: 10px;
+    margin-left: -10px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    -webkit-transition: all 400ms;
+    transition: all 400ms;
+    background: rgba(238, 212, 166, 0.23);
+}
+figure img {
+  width: 200px;
+  height: 315px;
+  margin-left: -2px;
+  margin-top: 30px;
+  position: absolute;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  display: none;
+}
+.description {
+  width: 228px;
+  opacity: 0;
+  height: 378px;
+  position: absolute;
+  top: 60px;
+  left: -6px;
+  font-size: 20px;
+  background: rgba(238, 212, 166, 0.23);
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  text-align: center;
+  padding: 140px;
+  padding-left: 0;
+  color: #fff;
+  cursor: pointer;
+}
+.show-image-women {
+  width: 300px;
+  height: 473px;
+  background-color: #fff;
+  position: absolute;
+  margin-left: -305px;
+  background-image: url(../images/show-women.jpg);
+}
+.text-women {
+  width: 300px;
+  height: 180px;
+  position: absolute;
+  margin-left: -305px;
+  font-family: 'wp_domino_novelregular';
+  font-size: 48px;
+  text-align: center;
+  color: #1c264a;
+  margin-top: 500px;
+}
+.text-women-sub {
+  font-size: 36px;
+}
+.show-image-men {
+  width: 300px;
+  height: 473px;
+  background-color: #fff;
+  position: absolute;
+  margin-left: 635px;
+  background-image: url(../images/show-men.jpg);
+}
+.text-men {
+  width: 300px;
+  height: 180px;
+  position: absolute;
+  margin-left: 635px;
+  font-family: 'wp_domino_novelregular';
+  font-size: 48px;
+  text-align: center;
+  color: #1c264a;
+  margin-top: 500px;
+}
+.text-men-sub {
+  font-size: 36px;
+}
+.link-genivel {
+  width: 105px;
+  height: 140px;
+  font-size: 28px;
+  text-align: center;
+  color: #1c264a;
+  margin-left: 55px;
+  margin-top: -30px;
+  text-shadow: 2px 1.5px #e5d0b5;
+  line-height: 150%;
+  cursor: initial;
+}
+.footer2 {
+  width: 960px;
+  height: 170px;
+  background-color: #e5d0b5;
+  float: left;
+  font-family: 'wp_domino_novelregular';
+}

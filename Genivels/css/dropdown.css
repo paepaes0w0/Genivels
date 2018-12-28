@@ -1,0 +1,89 @@
+.submenu-dropdown {
+  width: 52px;
+  height: 168px;
+  display: none;
+}
+#shop-menu-dropdown:hover .submenu-dropdown, .submenu-dropdown:hover  {
+  display: block;
+}
+.line {
+  width: 70px;
+  height: 2px;
+  background-color: #d0bda8;
+  position: absolute;
+  transform: translate3d(-5px,5px,0);
+}
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #d0bda8;
+  transform: translate3d(47px,5px,0);
+}
+.submenu {
+  width: 120px;
+  height: 140px;
+  background-color: #d0bda8;
+  padding-top: 30px;
+  padding-left: 10px;
+  border-radius: 10px;
+  font-family: 'wp_domino_novelregular';
+  font-size: 16px;
+  text-align: left;
+  margin-top: 12px;
+  position: absolute;
+  left: 270px;
+}
+.submenu-item {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.submenu-item:hover {
+  text-decoration: underline;
+}
+/*menu dropdown*/
+.submenu-dropdown2 {
+  width: 52px;
+  height: 168px;
+  display: none;
+}
+#contact-menu-dropdown:hover .submenu-dropdown2, .submenu-dropdown2:hover  {
+  display: block;
+}
+.line2 {
+  width: 85px;
+  height: 2px;
+  background-color: #d0bda8;
+  position: absolute;
+  transform: translate3d(-5px,5px,0);
+}
+.triangle-down2 {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #d0bda8;
+  transform: translate3d(65px,5px,0);
+}
+.submenu2 {
+  width: 120px;
+  height: 115px;
+  background-color: #d0bda8;
+  padding-top: 30px;
+  padding-left: 10px;
+  border-radius: 10px;
+  font-family: 'wp_domino_novelregular';
+  font-size: 16px;
+  text-align: left;
+  margin-top: 12px;
+  position: absolute;
+  left: 740px;
+}
+.submenu-item2 {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.submenu-item2:hover {
+  text-decoration: underline;
+}
